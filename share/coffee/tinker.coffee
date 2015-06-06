@@ -15,20 +15,20 @@ $Cog.tinker = ->
 
   @add_pane '.col1',
     type: 'input'
-    title: 'YAML Input'
+    title: @config.pane[0].title,
     button: 'Test'
   @add_pane '.col2 .pane-a',
     type: 'output'
-    title: 'YAML.pm Load Result'
+    title: @config.pane[1].title,
   @add_pane '.col2 .pane-b',
     type: 'output'
-    title: 'YAML::Tiny Load Result'
+    title: @config.pane[2].title,
   @add_pane '.col3 .pane-a',
     type: 'output'
-    title: 'YAML::XS Load Result'
+    title: @config.pane[3].title,
   @add_pane '.col3 .pane-b',
     type: 'output'
-    title: 'YAML::Syck Load Result'
+    title: @config.pane[4].title,
   $('.col1 .input').focus()
   $('.pane button').click =>
     @process()
