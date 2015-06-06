@@ -23,6 +23,6 @@ devel:
 
 requires:
   perl: 5.8.1
-  Tinker: 0
+  Tinker: 0.0.3
 
 badge: travis
