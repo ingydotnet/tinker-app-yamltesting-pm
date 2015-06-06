@@ -1,0 +1,10 @@
+<<<cpan-head>>>
+
+= Synopsis
+
+  > tinker init --app=Tinker::App::YAMLTesting
+  > tinker update
+  > tinker make
+  > tinker start
+
+<<<cpan-tail>>>

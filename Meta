@@ -1,0 +1,28 @@
+=meta: 0.0.2
+
+name: Tinker-App-YAMLTesting
+version: 0.0.1
+abstract: Tinker App for YAML Testing
+homepage: https://metacpan.org/release/Tinker-App-YAMLTesting
+language: perl
+license: perl
+copyright: 2015
+
+author:
+  name: Ingy döt Net
+  email: ingy@cpan.org
+  homepage: http://ingy.net
+  github: ingydotnet
+  twitter: ingydotnet
+  freenode: ingy
+
+devel:
+  git: https://github.com/ingydotnet/tinker-app-yamltesting-pm
+  bug: https://github.com/ingydotnet/tinker-app-yamltesting-pm/issues
+  irc: irc.freenode.net#tinkertest
+
+requires:
+  perl: 5.8.1
+  Tinker: 0
+
+badge: travis
